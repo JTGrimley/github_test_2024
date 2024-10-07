@@ -1,0 +1,19 @@
+---
+title: "Coding Exercise"
+author: "J Grimley"
+date: "2024-10-07"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r exercises}
+packages <- c('tidyverse',
+              'lterdatasampler')
+```
+
+```{r Q}
+data("knz_bison")
+```
