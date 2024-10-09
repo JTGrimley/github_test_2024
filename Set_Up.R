@@ -1,5 +1,3 @@
-# a script for installing (if needed) and loading packages for this project.
-
 packageLoad <-
   function(x) {
     for (i in 1:length(x)) {
@@ -10,17 +8,8 @@ packageLoad <-
     }
   }
 
-# create a string of package names
 packages <- c('tidyverse',
               'palmerpenguins',
-              'rmarkdown',
-              'ggthemes',
-              'RColorBrewer',
-              'viridis',
-              'ggdark',
-              'plotly',
-              'lterdatasampler',
-              'rstatix')
+              'lterdatasampler')
 
-# use the packageLoad function we created on those packages
 packageLoad(packages)
